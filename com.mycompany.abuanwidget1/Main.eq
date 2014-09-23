@@ -21,7 +21,7 @@ class Main : LayerWidget, EventReceiver
 					add(CanvasWidget.for_colors(Color.instance("black"), Color.instance("red")));
 					add(LabelWidget.for_string("A Frame")
 			.set_font(Theme.font().modify("6mm bold color=red outline-color=white")));
-			
+
 			}
 		}
 	
